@@ -13,10 +13,10 @@ int main()
 
         cout<<"press 0 to exist"<<endl;
         cout<<"press 1 to add contact"<<endl;
-        cout<<"press 2 to delete contant"<<endl;
-        cout<<"press 3 to search about contant"<<endl;
-        cout<<"press 4 to edit contant"<<endl;
-        cout<<"press 5 to print all contants"<<endl;
+        cout<<"press 2 to delete contact"<<endl;
+        cout<<"press 3 to search about contact"<<endl;
+        cout<<"press 4 to edit contact"<<endl;
+        cout<<"press 5 to print all contacts"<<endl;
         cin>>x;
         system("cls");
         switch(x)
@@ -27,13 +27,13 @@ int main()
         case 1:
             c.addContact();
             break;
-        case 3:
+        case 2:
             c.searchContact();
             break;
-        case 4:
+        case 3:
             c.editContact();
             break;
-        case 5:
+        case 4:
             c.print();
             break;
         default:
